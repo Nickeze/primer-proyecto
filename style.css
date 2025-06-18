@@ -40,7 +40,7 @@ header .container .logo
    width: 100px;
 }
 
-header .container a
+header .container nav a
 {
    color: red;
    text-decoration: none;
@@ -58,16 +58,56 @@ header .container a
 {
     color: white;
     background-color: red;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
 }
 
+.flex
+{
+    display: flex;
+    justify-content: center;
+}
+
+.boton.boton-blanco
+{
+    color: red;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid red;
+    
+}
+
+.seccion
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .container
 {
     width: 1140px;
     margin: 0% auto 0 auto;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.columna
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.columna-33
+{
+    width: 33.33%;
 }
 
 #inicio
@@ -101,4 +141,46 @@ position: relative;
 {
     color: white;
     font-size: 16px;
+}
+
+#nosotros
+{
+    background-image: url(img/latas.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+#nosotros p
+{
+     color: white;
+    text-align: center;
+    font-size: 16px;
+    /*margin: 0;*/
+}
+
+#servicios .bloque-servicio
+{
+    border: 1px solid gray;
+}
+
+#servicios .bloque-servicio .bloque-img-servicio
+{
+
+}
+
+#servicios .bloque-servicio .bloque-img-servicio img
+{
+    width: 100%;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio
+{
+    padding: 15px;
+}
+
+#servicios .bloque-servicio .bloque-contenido-servicio h3
+{
+    margin-top: 0;
+    font-size: 25px;
 }
